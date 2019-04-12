@@ -1,9 +1,9 @@
-enum CoffeeSize{
+enum CoffeeSize3{
     SMALL(2), BIG(4), HUGE(6);
 
     private final int ounces;
 
-    CoffeeSize(int ounces){
+    CoffeeSize3(int ounces){
         this.ounces = ounces;
     }
 
@@ -17,10 +17,10 @@ enum CoffeeSize{
 
 }
 
-class Coffee{
-    private CoffeeSize size;
+class Coffee3{
+    private CoffeeSize3 size;
 
-    public Coffee(CoffeeSize size){
+    public Coffee3(CoffeeSize3 size){
         this.size = size;
     }
 
@@ -31,8 +31,8 @@ class Coffee{
 
 public class CoffeShopEnumPro{
     public static void main(String[] args){
-        Coffee hugeDrink = new Coffee(CoffeeSize.HUGE);   
-        Coffee smalldrink = new Coffee(CoffeeSize.SMALL);   
+        Coffee3 hugeDrink = new Coffee3(CoffeeSize3.HUGE);   
+        Coffee3 smalldrink = new Coffee3(CoffeeSize3.SMALL);   
 
         System.out.println(hugeDrink);
     }

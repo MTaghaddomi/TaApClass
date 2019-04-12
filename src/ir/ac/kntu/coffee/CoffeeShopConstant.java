@@ -1,5 +1,5 @@
 
-class Coffee{
+class Coffee1{
     public final static String SMALL = "SMALL";
     public final static String BIG = "BIG";
     public final static String HUGE = "HUGE";
@@ -7,7 +7,7 @@ class Coffee{
     private String size;
     private int ounces;
 
-    public Coffee(String size, int ounces){
+    public Coffee1(String size, int ounces){
         this.size = size;
         this.ounces = ounces;
     }
@@ -23,8 +23,8 @@ class Coffee{
 
 public class CoffeeShopConstant{
     public static void main(String[] args){
-        Coffee smallDrink = new Coffee(Coffee.SMALL, 2);   
-        Coffee hugeDrink = new Coffee(Coffee.HUGE, 4);   
+        Coffee1 smallDrink = new Coffee1(Coffee1.SMALL, 2);   
+        Coffee1 hugeDrink = new Coffee1(Coffee1.HUGE, 4);   
 
         System.out.println(hugeDrink);
     }
