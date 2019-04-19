@@ -4,6 +4,7 @@ package ir.ac.kntu.Session7.overload;
 //Every constructor calls super(), at first line
 
 // All cons have default no-arg con
+
 public class ConsOverload2 {
 
     // now the cons() is gone
