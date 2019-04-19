@@ -1,6 +1,6 @@
 package ir.ac.kntu.Session7.override;
 
-public class AccessLevel {
+public class AccessLevel1 {
 
 }
 
