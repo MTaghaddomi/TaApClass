@@ -1,3 +1,5 @@
+package ir.ac.kntu.coffee;
+
 enum CoffeeSize3{
     SMALL(2), BIG(4), HUGE(6);
 
@@ -29,11 +31,12 @@ class Coffee3{
     }
 }
 
-public class CoffeShopEnumPro{
+public class CoffeeShopEnumPro {
     public static void main(String[] args){
         Coffee3 hugeDrink = new Coffee3(CoffeeSize3.HUGE);   
         Coffee3 smalldrink = new Coffee3(CoffeeSize3.SMALL);   
 
         System.out.println(hugeDrink);
+        System.out.println(smalldrink);
     }
 }

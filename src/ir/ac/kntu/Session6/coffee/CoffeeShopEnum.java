@@ -1,3 +1,4 @@
+
 enum CoffeeSize2{
     SMALL, BIG, HUGE;
 }

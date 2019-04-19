@@ -1,3 +1,4 @@
+package ir.ac.kntu.coffee;
 
 class Coffee1{
     public final static String SMALL = "SMALL";

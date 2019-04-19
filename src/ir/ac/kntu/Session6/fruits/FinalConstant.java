@@ -11,6 +11,13 @@ public class FinalConstant{
 }
 
 
+
+
+
+
+
+
+
  // prefer this pattern
 enum Apple  { FUJI, PIPPIN, GRANNY_SMITH }
 
