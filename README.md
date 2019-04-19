@@ -30,5 +30,6 @@ Advance Programming Course Teacher Assistant Example Code for students
  <ul>
 <li>https://www.geeksforgeeks.org/overriding-in-java/</li>
 <li>https://beginnersbook.com/2013/05/constructor-overloading/</li>
+<li>Effective Java by: Joshua Bloch</li>
  <li>...</li>
 </ul>
