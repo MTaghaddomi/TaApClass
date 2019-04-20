@@ -32,6 +32,9 @@ class Child extends Parent {
         super.m2();
     }
 
+    public static void main(String[] args) {
+        new Child().m2();
+    }
 
 
 }

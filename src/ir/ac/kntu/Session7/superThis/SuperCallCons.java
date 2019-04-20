@@ -12,17 +12,16 @@ class Super {
 }
 
 class Child extends Super {
-    /*
-         By default :
+//         By default :
 
         Child(){
-            super() // but there is no super() ! compile error
+            super(234);
+//            super() // but there is no super() ! compile error
         }
-         */
 
-    public Child(int a) {
-        super(a);
-    }
+//    public Child(int a) {
+//        super(a);
+//    }
 
 
 

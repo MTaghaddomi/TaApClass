@@ -5,11 +5,19 @@ package ir.ac.kntu.Session7.javadoc;
  * and has method for calculating BMI number.
  *
  * @author MahYazdani
+ * @see Main
+ *
  */
 public class Person {
+    /**
+     *
+     */
     private String name;
     private double weight;
     private int height;
+
+
+
 
     /**
      * constructor of person class for initializing.
@@ -35,7 +43,7 @@ public class Person {
 
     /**
      * converts the unit of height from meter to centimeter.
-     *
+     *<br>
      * @param height gets a height for converting.
      * @return double value of converting cm to m.
      */
